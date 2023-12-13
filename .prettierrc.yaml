@@ -1,0 +1,26 @@
+printWidth: 120
+tabWidth: 2
+singleQuote: true
+trailingComma: all
+arrowParens: avoid
+semi: true
+embeddedLanguageFormatting: auto
+ignore:
+  - "node_modules/**"
+  - ".git/**"
+overrides:
+  - files: "*.json"
+    options:
+      tabWidth: 4
+  - files: "*.py"
+    options:
+      tabWidth: 4
+  - files: "*.yaml"
+    options:
+      tabWidth: 4
+  - files: "*.yml"
+    options:
+      tabWidth: 4
+  - files: "*.md"
+    options:
+      printWidth: 80
