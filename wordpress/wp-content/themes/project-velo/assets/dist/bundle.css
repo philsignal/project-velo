@@ -1,0 +1,424 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./node_modules/slick-carousel/slick/slick.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: "";
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+[dir=rtl] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./node_modules/slick-carousel/slick/slick-theme.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/* Slider */
+.slick-loading .slick-list {
+  background: #fff url(f7a7f8b732e756d6b4cb.gif) center center no-repeat;
+}
+
+/* Icons */
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  src: url(0c730ed50545d466fdbb.eot);
+  src: url(0c730ed50545d466fdbb.eot?#iefix) format("embedded-opentype"), url(b51df43fc64d052a8f07.woff) format("woff"), url(8bb2bfc6bceb757e8366.ttf) format("truetype"), url(25dc2550b91f3635b665.svg#slick) format("svg");
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: transparent;
+  outline: none;
+  background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+  opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+  opacity: 0.25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0.75;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+  left: -25px;
+}
+
+[dir=rtl] .slick-prev {
+  right: -25px;
+  left: auto;
+}
+
+.slick-prev:before {
+  content: "←";
+}
+
+[dir=rtl] .slick-prev:before {
+  content: "→";
+}
+
+.slick-next {
+  right: -25px;
+}
+
+[dir=rtl] .slick-next {
+  right: auto;
+  left: -25px;
+}
+
+.slick-next:before {
+  content: "→";
+}
+
+[dir=rtl] .slick-next:before {
+  content: "←";
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/resolve-url-loader/index.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[4]!./sass/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************/
+.carousel-item {
+  background-size: cover;
+  height: 780px;
+  width: 100%;
+}
+.carousel-item .carousel-content {
+  width: 80%;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel-item .carousel-content .inner {
+  width: 60%;
+}
+.carousel-item .carousel-content .inner h2 {
+  font-size: 4.5rem;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: #65498a;
+  font-family: "clan_procond_news_italic";
+  margin-bottom: 0;
+}
+.carousel-item .carousel-content .inner h4 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: Arial, sans-serif;
+  color: #4b384c;
+}
+.carousel-item .carousel-content .inner p {
+  font-size: 20px;
+  line-height: 31px;
+  margin-bottom: 2.5rem;
+}
+.carousel-item .carousel-content .inner .cta {
+  position: relative;
+  font-size: 20px;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 1rem;
+  color: #65498a;
+  border: 1px solid #65498a;
+  padding: 15px;
+  border-radius: 0px 0px 15px 0px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.carousel-item .carousel-content .inner .cta:hover {
+  background-color: #65498a;
+  color: #ffffff;
+  padding: 20px;
+  transform: scale(1.05); /* Increase size by 5% on hover */
+}
+
+#second-slider {
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#second-slider .cols .inner {
+  max-width: 350px;
+  height: 550px;
+  border-radius: 0px 0px 15px 0px;
+}
+#second-slider .cols .inner .thumbnails {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+}
+#second-slider .cols .inner h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#second-slider .cols .inner h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+#second-slider .cols .inner p {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+#second-slider .cols .inner .cta {
+  position: relative;
+  font-size: 20px;
+  line-height: 31px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 1rem;
+  color: #65498a;
+  border: 1px solid #65498a;
+  padding: 15px;
+  border-radius: 0px 0px 15px 0px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+#second-slider .cols .inner .cta:hover {
+  background-color: #65498a;
+  color: #ffffff;
+  padding: 20px;
+  transform: scale(1.05); /* Increase size by 5% on hover */
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots li button {
+  background: #f1f1f1;
+}
+.slick-dots button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: none;
+  border-radius: 100%;
+  background-color: #f1f1fe;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  background-color: #3c3c3c;
+}
+
+/*# sourceMappingURL=bundle.css.map*/
