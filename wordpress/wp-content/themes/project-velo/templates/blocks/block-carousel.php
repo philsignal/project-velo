@@ -16,11 +16,8 @@
 
             // get image URL from image id
             $image_id = get_sub_field('image');
-//            $image_url = get_image_src_from_id($image_id, 'carousel-slider');
             $image_url = wp_get_attachment_image($image_id,'carousel-slider');
             ?>
-
-            <!--                     src="http://localhost:8080/wp-content/uploads/2024/04/flight-path-on-gray-c-1600x840.jpg"-->
 
             <div class="carousel-item">
                 <div class="carousel-content">
